@@ -47,4 +47,3 @@ index 0000000..723ef36
 
 ### Useful resources
  
-test maiun
