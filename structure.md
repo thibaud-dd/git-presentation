@@ -41,7 +41,7 @@ index 0000000..723ef36
 ### Do not use the terminal
 
 ### use "-"
-go back to previous ref
+
 ### useful commands
 
 
