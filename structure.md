@@ -139,7 +139,7 @@ Make git work the way you want!
 Works similarly to `-` in the `cd` command. In git, this is a reference to the previous ref.
 
 **Examples:**
-- `git cherry-pick -` - cherry-pick the last commit you were on onto the current branch
+ - `git cherry-pick` - cherry-pick commits from the previously checked out branch onto the current branch
 - `git rebase -` - rebase the current branch on the previous ref. Generally used after switching branches
 
 ### Speed Up Your Git Pulls
@@ -174,6 +174,13 @@ Strategies for avoiding common issues and maintaining a smooth workflow.
 - Jetbrains IDEs have a good UI to resolve conflicts
 
 ---
+
+## Other useful concepts/commands
+ - learn how to navigate branches with the HEAD pointer
+ - `git cherry pick` - cherry pick a commit onto your current branch
+ - `git bisect` - very useful to find when a bug started
+ - `git revert` - undo a change while preserving history
+ - `git log` - we all know it but it is good to learn how to customize the output. For example: `git log -1 --name-only` to view the files affected by the last commit
 
 ## Resources
 
